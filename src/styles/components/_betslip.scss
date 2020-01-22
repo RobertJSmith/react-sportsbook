@@ -1,0 +1,35 @@
+.betslip {
+    border-radius: 5px;
+    border: 2px solid #666;
+    grid-area: side;
+    display: block;
+}
+
+.counter {
+    background-color: black;
+    text-align: right;
+    color: white;
+    padding: 5px;
+    height: 10%;
+}
+
+.counter-text {
+    height: 20px;
+    top: 0;
+    margin-right: 3px;
+    min-width: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #3e3e3f;
+    font-weight: 700;
+    background-color: #fff200;
+}
+
+.betslip-bet-wrapper {
+    padding: 10px;
+}
+
+.betslip-bet-target, .betslip-bet-type, .betslip-bet-odds, .betslip-bet-stake {
+    display:block;
+}

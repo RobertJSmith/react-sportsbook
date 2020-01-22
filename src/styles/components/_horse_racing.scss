@@ -1,0 +1,35 @@
+.horse-racing-list{
+    grid-area: content;
+    border: 1px solid black;
+}
+
+.horse-racing-list-scheduledRace {
+    display: block;
+    text-align: left;
+}
+
+.horse-racing-list-scheduledRace > div {
+    display: inline-block;
+    text-align: center;
+}
+
+.horse-racing-list-scheduledRace_location {
+    border-right: 1px solid black;
+    width: 10%;
+    
+}
+
+.horse-racing-list-scheduledRace_time {
+    display: inline-block;
+    width: 100px;
+    margin-left: 5px;
+}
+
+.horse-racing-list-scheduledRace_time:hover {
+    background-color: lighten(blue, 40%);
+    cursor:pointer;
+}
+
+.horse-racing-list-scheduledRace_time.is-active {
+    background-color: lighten(blue, 40%);
+}
